@@ -1,0 +1,552 @@
+/* ═══════════════════════════════════════════════════════════════
+   Part 5 · Responsive & accessibility
+   ═══════════════════════════════════════════════════════════════ */
+
+@media (min-width: 900px) {
+  .mobile-nav,
+  .mobile-nav__backdrop {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav__links {
+    gap: 0;
+  }
+
+  .nav__link {
+    padding-inline: 12px;
+    font-size: 0.8rem;
+  }
+
+  .skills__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .hero__visual {
+    max-width: 500px;
+  }
+
+  .about__grid {
+    gap: 46px;
+  }
+
+  .about-float--one {
+    right: -16px;
+  }
+
+  .about-float--two {
+    left: -16px;
+  }
+}
+
+@media (max-width: 980px) {
+  .nav__links {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: grid;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: calc(var(--nav-height) + 50px);
+    padding-bottom: 28px;
+  }
+
+  .hero__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 54px;
+    padding-top: 18px;
+    padding-bottom: 30px;
+  }
+
+  .hero__copy {
+    max-width: 660px;
+  }
+
+  .hero__title {
+    font-size: clamp(2.9rem, 7.5vw, 4.5rem);
+  }
+
+  .hero__visual {
+    max-width: 480px;
+  }
+
+  .hero__meta {
+    justify-content: flex-start;
+  }
+
+  .hero__footer {
+    margin-top: 24px;
+  }
+
+  .about__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 56px;
+  }
+
+  .about__visual {
+    max-width: 430px;
+  }
+
+  .about__content {
+    max-width: 720px;
+  }
+
+  .about-float--one {
+    right: -26px;
+  }
+
+  .about-float--two {
+    left: -26px;
+  }
+
+  .projects__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-reveal,
+  .project-reveal--featured {
+    grid-column: auto;
+  }
+
+  .project-reveal:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .services__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 38px;
+  }
+
+  .contact__info {
+    max-width: 640px;
+  }
+
+  .contact-form {
+    max-width: 720px;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .section {
+    padding-block: clamp(72px, 12vw, 96px);
+  }
+
+  .section-head__title {
+    font-size: clamp(1.85rem, 6.4vw, 2.5rem);
+  }
+
+  .section-head__description {
+    font-size: 0.9rem;
+  }
+
+  .hero__badge-role,
+  .hero__badge-divider {
+    display: none;
+  }
+
+  .hero__title {
+    font-size: clamp(2.65rem, 11vw, 3.7rem);
+  }
+
+  .hero__tagline {
+    font-size: 0.94rem;
+  }
+
+  .hero__support {
+    font-size: 0.87rem;
+  }
+
+  .hero__visual {
+    max-width: 420px;
+  }
+
+  .hero__footer-note {
+    display: none;
+  }
+
+  .hero__meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero__stats {
+    width: 100%;
+  }
+
+  .hero-stat {
+    flex: 1;
+  }
+
+  .hero-stat + .hero-stat {
+    margin-left: 16px;
+    padding-left: 16px;
+  }
+
+  .about__list {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .projects__head-link {
+    padding-bottom: 0;
+  }
+
+  .projects__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+    margin-top: 36px;
+  }
+
+  .project-reveal:last-child {
+    grid-column: auto;
+  }
+
+  .services__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-top: 38px;
+  }
+
+  .services-cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    margin-top: 22px;
+  }
+
+  .services-cta .btn {
+    width: 100%;
+  }
+
+  .skills__note {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .skills__grid {
+    margin-top: 38px;
+  }
+
+  .projects__grid {
+    margin-top: 36px;
+  }
+
+  .contact__grid {
+    margin-top: 38px;
+  }
+
+  .contact__methods {
+    margin-top: 24px;
+  }
+
+  .contact-form__row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .footer {
+    padding-top: 48px;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer__brand {
+    grid-column: auto;
+  }
+
+  .footer__links {
+    max-width: 280px;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    margin-top: 36px;
+  }
+
+  .footer__bottom-right {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero__title {
+    font-size: clamp(2.4rem, 12vw, 3.2rem);
+  }
+
+  .hero__subtitle {
+    font-size: 1.05rem;
+  }
+
+  .hero__actions {
+    gap: 10px;
+  }
+
+  .hero__actions .btn {
+    flex: 1;
+    min-width: 0;
+    padding-inline: 14px;
+    font-size: 0.82rem;
+  }
+
+  .hero__visual {
+    max-width: 365px;
+  }
+
+  .code-window {
+    width: 100%;
+  }
+
+  .float-chip--react {
+    top: 2%;
+    left: -2%;
+    transform: scale(0.9);
+  }
+
+  .float-chip--next {
+    display: none;
+  }
+
+  .float-badge {
+    display: none;
+  }
+
+  .hero__footer {
+    padding-top: 18px;
+  }
+
+  .about-card {
+    min-height: 430px;
+    padding: 20px;
+  }
+
+  .about-float {
+    display: none;
+  }
+
+  .about-card__logo {
+    width: min(88%, 280px);
+  }
+
+  .about-card__ring--one {
+    width: 260px;
+    height: 260px;
+  }
+
+  .about-card__ring--two {
+    width: 190px;
+    height: 190px;
+  }
+
+  .about__facts {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 6px 0;
+  }
+
+  .about-fact {
+    padding: 10px 0;
+    border-left: 0;
+    border-top: 1px solid var(--border-soft);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .about-fact:first-child {
+    border-top: 0;
+  }
+
+  .about-fact dd {
+    margin-top: 0;
+    text-align: right;
+  }
+
+  .about__actions {
+    gap: 16px;
+  }
+
+  .skills__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .skill-card {
+    padding: 18px 16px;
+  }
+
+  .skill-card__icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .skill-card__icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .skill-card__name {
+    font-size: 0.94rem;
+  }
+
+  .skill-card__blurb {
+    font-size: 0.7rem;
+  }
+
+  .contact-method__copy span {
+    display: none;
+  }
+
+  .contact-method__copy {
+    padding: 8px;
+  }
+
+  .contact-method__value {
+    font-size: 0.8rem;
+  }
+
+  .contact-form {
+    padding: 20px 17px;
+  }
+
+  .footer__links {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+  }
+
+  .footer__bottom-right span {
+    font-size: 0.64rem;
+  }
+
+  .not-found {
+    min-height: 80svh;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero__badge {
+    font-size: 0.67rem;
+    padding: 7px 11px;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .hero__visual {
+    max-width: 320px;
+  }
+
+  .code-block {
+    font-size: 0.56rem;
+  }
+
+  .code-line__no {
+    width: 28px;
+    padding-right: 9px;
+    margin-right: 10px;
+  }
+
+  .skills__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .skill-card__blurb {
+    min-height: 0;
+  }
+
+  .hero-stat + .hero-stat {
+    margin-left: 12px;
+    padding-left: 12px;
+  }
+
+  .hero-stat__value {
+    font-size: 1.05rem;
+  }
+
+  .hero-stat__label {
+    font-size: 0.56rem;
+  }
+
+  .about-card__caption {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about-card__stack {
+    justify-content: flex-start;
+  }
+
+  .contact-form__row {
+    gap: 0;
+  }
+
+  .footer__bottom-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hero-anim {
+    opacity: 1;
+    animation: none;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .skill-bar__fill {
+    width: var(--level);
+  }
+}

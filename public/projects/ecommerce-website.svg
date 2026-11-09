@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">E-commerce Website preview</title>
+  <desc id="desc">A polished online store with a seasonal hero banner, product cards, prices and an add-to-cart action.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c0618"/>
+      <stop offset="1" stop-color="#06030c"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0abfc"/>
+      <stop offset="0.5" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2e1065"/>
+      <stop offset="0.5" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3b1765"/>
+      <stop offset="1" stop-color="#120a21"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0e1626"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4a1349"/>
+      <stop offset="1" stop-color="#180a20"/>
+    </linearGradient>
+    <linearGradient id="headphone" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5f3ff"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#a855f7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="frame">
+      <rect x="50" y="45" width="1100" height="660" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="1040" cy="620" r="360" fill="url(#glow)" opacity="0.45" filter="url(#blur)"/>
+
+  <rect x="50" y="45" width="1100" height="660" rx="22" fill="#080512" stroke="#2c2045" stroke-width="1.5"/>
+  <g clip-path="url(#frame)">
+    <rect x="50" y="45" width="1100" height="48" fill="#100a1b"/>
+    <circle cx="78" cy="69" r="5" fill="#f87171"/>
+    <circle cx="96" cy="69" r="5" fill="#fbbf24"/>
+    <circle cx="114" cy="69" r="5" fill="#34d399"/>
+    <rect x="142" y="59" width="280" height="21" rx="10" fill="#1b1229"/>
+    <text x="158" y="73" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#8b7fa3">aura.store</text>
+
+    <rect x="50" y="93" width="1100" height="612" fill="#080512"/>
+    <ellipse cx="300" cy="250" rx="340" ry="260" fill="#6d28d9" opacity="0.12" filter="url(#blur)"/>
+    <ellipse cx="1000" cy="500" rx="300" ry="240" fill="#22d3ee" opacity="0.1" filter="url(#blur)"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="90" y="141" font-size="22" font-weight="700" letter-spacing="4" fill="#fbf9ff">AURA</text>
+      <g font-size="11" fill="#a99bbb">
+        <text x="480" y="140">New in</text>
+        <text x="546" y="140">Audio</text>
+        <text x="606" y="140">Wearables</text>
+        <text x="696" y="140">Home</text>
+        <text x="756" y="140">Sale</text>
+      </g>
+      <rect x="872" y="121" width="150" height="32" rx="16" fill="#120b1e" stroke="#2d1f43"/>
+      <circle cx="890" cy="137" r="5" fill="none" stroke="#8b7fa3" stroke-width="1.5"/>
+      <path d="M894 141l4 4" stroke="#8b7fa3" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="905" y="141" font-size="9" fill="#73668a">Search products</text>
+      <path d="M1048 130v12M1042 133v6" stroke="#b9a9d6" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="1090" cy="134" r="10" fill="#1a1128" stroke="#33244b"/>
+      <path d="M1084 139l3-4v-3a3 3 0 016 0v3l3 4h-12z" stroke="#c4b5fd" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+      <circle cx="1108" cy="124" r="6" fill="#a855f7"/>
+      <text x="1108" y="127" text-anchor="middle" font-size="7" font-weight="700" fill="#fff">2</text>
+    </g>
+
+    <g>
+      <rect x="90" y="176" width="1020" height="200" rx="20" fill="url(#hero)"/>
+      <circle cx="950" cy="235" r="170" fill="url(#glowCyan)" opacity="0.3"/>
+      <ellipse cx="950" cy="345" rx="150" ry="18" fill="#030109" opacity="0.6" filter="url(#soft)"/>
+      <g font-family="Segoe UI, Arial, sans-serif">
+        <rect x="118" y="202" width="138" height="22" rx="11" fill="#ffffff" opacity="0.1"/>
+        <text x="130" y="217" font-size="7.5" font-weight="600" letter-spacing="1.2" fill="#e9d5ff">NEW SEASON · 2026</text>
+        <text x="118" y="264" font-size="34" font-weight="700" fill="#fff" letter-spacing="-1">New season.</text>
+        <text x="118" y="302" font-size="34" font-weight="700" fill="#fff" letter-spacing="-1">New energy<tspan fill="#e879f9">.</tspan></text>
+        <text x="118" y="330" font-size="10.5" fill="#d8c9f0">Premium audio and everyday essentials, made to move with you.</text>
+        <rect x="118" y="345" width="124" height="38" rx="19" fill="#fff"/>
+        <text x="180" y="369" text-anchor="middle" font-size="10.5" font-weight="700" fill="#301246">Shop the drop</text>
+        <text x="262" y="369" font-size="10" fill="#e9d5ff">Explore all →</text>
+      </g>
+
+      <g>
+        <ellipse cx="948" cy="256" rx="64" ry="70" fill="url(#headphone)"/>
+        <ellipse cx="948" cy="248" rx="36" ry="42" fill="#2e1065"/>
+        <path d="M896 256c0-54 24-86 52-86s52 32 52 86" fill="none" stroke="#f5f3ff" stroke-width="13" stroke-linecap="round"/>
+        <ellipse cx="894" cy="272" rx="19" ry="30" fill="#f5f3ff"/>
+        <ellipse cx="1002" cy="272" rx="19" ry="30" fill="#f5f3ff"/>
+        <ellipse cx="894" cy="272" rx="10" ry="19" fill="#c4b5fd"/>
+        <ellipse cx="1002" cy="272" rx="10" ry="19" fill="#c4b5fd"/>
+        <circle cx="948" cy="250" r="9" fill="#a855f7" opacity="0.55"/>
+      </g>
+      <circle cx="1010" cy="198" r="3" fill="#f0abfc"/>
+      <circle cx="872" cy="322" r="2.5" fill="#67e8f9"/>
+    </g>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="90" y="416" font-size="17" font-weight="600" fill="#f5f2fc">Trending now</text>
+      <text x="1070" y="416" text-anchor="end" font-size="9.5" fill="#a78bfa">View all</text>
+
+      <g>
+        <rect x="90" y="436" width="318" height="244" rx="16" fill="#100a1b" stroke="#2b1d40"/>
+        <rect x="102" y="448" width="294" height="152" rx="12" fill="url(#card1)"/>
+        <circle cx="249" cy="524" r="62" fill="url(#glow)" opacity="0.8"/>
+        <ellipse cx="249" cy="570" rx="54" ry="10" fill="#030109" opacity="0.5" filter="url(#soft)"/>
+        <g>
+          <path d="M214 534c0-44 16-68 35-68s35 24 35 68" fill="none" stroke="#f5f3ff" stroke-width="9" stroke-linecap="round"/>
+          <ellipse cx="213" cy="541" rx="13" ry="21" fill="#f5f3ff"/>
+          <ellipse cx="285" cy="541" rx="13" ry="21" fill="#f5f3ff"/>
+          <ellipse cx="213" cy="541" rx="6" ry="12" fill="#c4b5fd"/>
+          <ellipse cx="285" cy="541" rx="6" ry="12" fill="#c4b5fd"/>
+        </g>
+        <rect x="102" y="459" width="54" height="18" rx="9" fill="#ffffff" opacity="0.12"/>
+        <text x="112" y="471" font-size="7" font-weight="600" fill="#e9d5ff">BESTSELLER</text>
+        <text x="116" y="628" font-size="11.5" font-weight="600" fill="#f0eaf9">Aero Wireless Headphones</text>
+        <text x="116" y="648" font-size="8.5" fill="#817596">Audio · 40h battery</text>
+        <text x="116" y="671" font-size="14" font-weight="700" fill="#fff">$189</text>
+        <rect x="326" y="650" width="64" height="26" rx="13" fill="#211435" stroke="#3a2954"/>
+        <text x="358" y="667" text-anchor="middle" font-size="8.5" fill="#d8b4fe">Add +</text>
+      </g>
+
+      <g>
+        <rect x="426" y="436" width="318" height="244" rx="16" fill="#100a1b" stroke="#2b1d40"/>
+        <rect x="438" y="448" width="294" height="152" rx="12" fill="url(#card2)"/>
+        <circle cx="585" cy="524" r="62" fill="url(#glowCyan)" opacity="0.7"/>
+        <ellipse cx="585" cy="570" rx="54" ry="10" fill="#030109" opacity="0.5" filter="url(#soft)"/>
+        <g>
+          <rect x="566" y="486" width="38" height="76" rx="12" fill="#0b0a18" stroke="#4b3a6b"/>
+          <rect x="570" y="493" width="30" height="62" rx="8" fill="#22d3ee" opacity="0.16"/>
+          <circle cx="585" cy="524" r="12" fill="#0b0a18" stroke="#67e8f9" stroke-width="2"/>
+          <path d="M585 514v6l4 3" stroke="#67e8f9" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+          <path d="M575 458c0-6 4-10 10-10s10 4 10 10" stroke="#e2e8f0" stroke-width="6" fill="none" stroke-linecap="round"/>
+          <path d="M575 590c0 6 4 10 10 10s10-4 10-10" stroke="#e2e8f0" stroke-width="6" fill="none" stroke-linecap="round"/>
+        </g>
+        <rect x="438" y="459" width="50" height="18" rx="9" fill="#ffffff" opacity="0.12"/>
+        <text x="447" y="471" font-size="7" font-weight="600" fill="#cffafe">NEW</text>
+        <text x="452" y="628" font-size="11.5" font-weight="600" fill="#f0eaf9">Halo Smart Watch</text>
+        <text x="452" y="648" font-size="8.5" fill="#817596">Wearables · AMOLED</text>
+        <text x="452" y="671" font-size="14" font-weight="700" fill="#fff">$249</text>
+        <rect x="662" y="650" width="64" height="26" rx="13" fill="#211435" stroke="#3a2954"/>
+        <text x="694" y="667" text-anchor="middle" font-size="8.5" fill="#d8b4fe">Add +</text>
+      </g>
+
+      <g>
+        <rect x="762" y="436" width="318" height="244" rx="16" fill="#100a1b" stroke="#2b1d40"/>
+        <rect x="774" y="448" width="294" height="152" rx="12" fill="url(#card3)"/>
+        <circle cx="921" cy="524" r="62" fill="url(#glow)" opacity="0.7"/>
+        <ellipse cx="921" cy="570" rx="54" ry="10" fill="#030109" opacity="0.5" filter="url(#soft)"/>
+        <g>
+          <rect x="893" y="490" width="56" height="80" rx="18" fill="#1b0f24" stroke="#5b2a63"/>
+          <rect x="899" y="496" width="44" height="68" rx="14" fill="#2c1233"/>
+          <circle cx="921" cy="520" r="9" fill="#e879f9" opacity="0.8"/>
+          <circle cx="921" cy="542" r="5" fill="#f0abfc" opacity="0.55"/>
+          <path d="M905 490v-8M937 490v-8" stroke="#a855f7" stroke-width="2" stroke-linecap="round"/>
+        </g>
+        <rect x="774" y="459" width="58" height="18" rx="9" fill="#ffffff" opacity="0.12"/>
+        <text x="784" y="471" font-size="7" font-weight="600" fill="#f5d0fe">LIMITED</text>
+        <text x="788" y="628" font-size="11.5" font-weight="600" fill="#f0eaf9">Pulse Mini Speaker</text>
+        <text x="788" y="648" font-size="8.5" fill="#817596">Home · 360° sound</text>
+        <text x="788" y="671" font-size="14" font-weight="700" fill="#fff">$129</text>
+        <rect x="998" y="650" width="64" height="26" rx="13" fill="#211435" stroke="#3a2954"/>
+        <text x="1030" y="667" text-anchor="middle" font-size="8.5" fill="#d8b4fe">Add +</text>
+      </g>
+    </g>
+  </g>
+</svg>
