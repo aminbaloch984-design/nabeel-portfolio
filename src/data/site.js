@@ -91,6 +91,17 @@ export const skills = [
 // individual repositories once those projects are published.
 export const projects = [
   {
+    id: "new-ai",
+    title: "NEW AI — Intelligent Workspace",
+    category: "AI Product",
+    description:
+      "A premium, Gemini-powered AI assistant with streaming chat, Markdown and code highlighting, locally saved conversations and polished light and dark themes.",
+    tech: ["Next.js", "React.js", "Gemini API"],
+    image: "/projects/new-ai.png",
+    live: "https://maan-dev-rose.vercel.app",
+    github: "https://github.com/aminbaloch984-design/maan-dev",
+  },
+  {
     id: "school-management",
     title: "School Management Website",
     category: "Web Application",
@@ -110,17 +121,6 @@ export const projects = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     image: "/projects/business-website.svg",
     live: "https://example.com/demo/business-website",
-    github: "https://github.com/aminbaloch984-design",
-  },
-  {
-    id: "ai-assistant",
-    title: "AI Assistant Website",
-    category: "AI Product",
-    description:
-      "A dark, modern chat experience for an AI assistant, featuring prompt suggestions and an elegant conversation UI.",
-    tech: ["Next.js", "React.js", "JavaScript"],
-    image: "/projects/ai-assistant.svg",
-    live: "https://example.com/demo/ai-assistant",
     github: "https://github.com/aminbaloch984-design",
   },
   {
