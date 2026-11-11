@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://aminbaloch984-design.github.io/nabeel-portfolio
+Sitemap: https://aminbaloch984-design.github.io/nabeel-portfolio/sitemap.xml

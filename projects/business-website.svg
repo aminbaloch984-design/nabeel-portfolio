@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Business Website preview</title>
+  <desc id="desc">A modern business landing page with a confident headline, call to action and a growth dashboard visual.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07040e"/>
+      <stop offset="0.55" stop-color="#0a0617"/>
+      <stop offset="1" stop-color="#05030b"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c4b5fd"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1b1230"/>
+      <stop offset="1" stop-color="#0c0716"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.75">
+      <stop stop-color="#e9d5ff"/>
+      <stop offset="0.35" stop-color="#a855f7"/>
+      <stop offset="0.7" stop-color="#5b21b6"/>
+      <stop offset="1" stop-color="#1e0b3a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="frame">
+      <rect x="50" y="45" width="1100" height="660" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="1010" cy="300" r="360" fill="url(#glow)" filter="url(#blur)"/>
+
+  <rect x="50" y="45" width="1100" height="660" rx="22" fill="#08050f" stroke="#2a2040" stroke-width="1.5"/>
+  <g clip-path="url(#frame)">
+    <rect x="50" y="45" width="1100" height="48" fill="#100a1b"/>
+    <circle cx="78" cy="69" r="5" fill="#f87171"/>
+    <circle cx="96" cy="69" r="5" fill="#fbbf24"/>
+    <circle cx="114" cy="69" r="5" fill="#34d399"/>
+    <rect x="142" y="59" width="290" height="21" rx="10" fill="#1b1229"/>
+    <text x="158" y="73" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#8b7fa3">nexora.com</text>
+    <path d="M1088 65v8M1084 69h8" stroke="#4d3d66" stroke-width="1.5" stroke-linecap="round"/>
+
+    <rect x="50" y="93" width="1100" height="612" fill="#080512"/>
+    <ellipse cx="730" cy="240" rx="430" ry="300" fill="#4c1d95" opacity="0.18" filter="url(#blur)"/>
+    <ellipse cx="1060" cy="560" rx="300" ry="240" fill="#0e7490" opacity="0.12" filter="url(#blur)"/>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <rect x="90" y="121" width="26" height="26" rx="8" fill="url(#brand)"/>
+      <path d="M97 140l6-11 6 11" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <text x="126" y="140" font-size="18" font-weight="700" fill="#f8f5fe" letter-spacing="-0.5">NEXORA</text>
+
+      <g font-size="11" fill="#a99bbb">
+        <text x="520" y="139">Home</text>
+        <text x="580" y="139">Services</text>
+        <text x="654" y="139">Work</text>
+        <text x="710" y="139">About</text>
+      </g>
+      <rect x="965" y="121" width="135" height="34" rx="17" fill="url(#brand)"/>
+      <text x="1032" y="142" text-anchor="middle" font-size="10.5" font-weight="600" fill="#fff">Book a call</text>
+    </g>
+
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <rect x="90" y="199" width="146" height="24" rx="12" fill="#170f27" stroke="#30204a"/>
+      <circle cx="104" cy="211" r="3" fill="#4ade80"/>
+      <text x="115" y="215" font-size="8" font-weight="600" letter-spacing="1.2" fill="#c4b5fd">DIGITAL GROWTH STUDIO</text>
+
+      <text x="90" y="290" font-size="46" font-weight="700" fill="#fbf9ff" letter-spacing="-1.8">Build a business</text>
+      <text x="90" y="340" font-size="46" font-weight="700" fill="#fbf9ff" letter-spacing="-1.8">that grows with</text>
+      <text x="90" y="390" font-size="46" font-weight="700" fill="#fbf9ff" letter-spacing="-1.8">confidence<tspan fill="#a855f7">.</tspan></text>
+
+      <text x="90" y="430" font-size="12.5" fill="#9d8fb5">We help ambitious teams turn bold ideas into</text>
+      <text x="90" y="449" font-size="12.5" fill="#9d8fb5">measurable growth through strategy and design.</text>
+
+      <rect x="90" y="482" width="132" height="40" rx="20" fill="url(#brand)"/>
+      <text x="156" y="507" text-anchor="middle" font-size="11.5" font-weight="600" fill="#fff">Get started</text>
+      <rect x="234" y="482" width="132" height="40" rx="20" fill="none" stroke="#3a2a55"/>
+      <text x="300" y="507" text-anchor="middle" font-size="11.5" fill="#d8cfe8">Our services</text>
+
+      <g opacity="0.7">
+        <text x="90" y="571" font-size="8.5" letter-spacing="1.4" fill="#6f6385">TRUSTED BY 120+ TEAMS</text>
+        <text x="90" y="602" font-size="14" font-weight="600" fill="#8a7ba0">Northstar</text>
+        <text x="190" y="602" font-size="14" font-weight="600" fill="#8a7ba0">Vertex</text>
+        <text x="270" y="602" font-size="14" font-weight="600" fill="#8a7ba0">Lumen</text>
+        <text x="352" y="602" font-size="14" font-weight="600" fill="#8a7ba0">Arc &amp; Co.</text>
+      </g>
+    </g>
+
+    <g>
+      <rect x="655" y="170" width="415" height="365" rx="26" fill="url(#panel)" stroke="#32224d" stroke-width="1.5"/>
+      <circle cx="862" cy="292" r="92" fill="url(#orb)" opacity="0.9"/>
+      <circle cx="862" cy="292" r="126" fill="none" stroke="#6d28d9" stroke-opacity="0.35" stroke-dasharray="3 8"/>
+      <circle cx="862" cy="292" r="162" fill="none" stroke="#6d28d9" stroke-opacity="0.18"/>
+      <ellipse cx="790" cy="460" rx="150" ry="22" fill="#05020c" opacity="0.75" filter="url(#softBlur)"/>
+
+      <rect x="682" y="199" width="188" height="26" rx="8" fill="#0c0716" stroke="#2b1d40"/>
+      <circle cx="696" cy="212" r="4" fill="#22d3ee"/>
+      <text x="706" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="8.5" fill="#9d8fb5">Live revenue overview</text>
+
+      <rect x="682" y="390" width="168" height="112" rx="14" fill="#0c0716" stroke="#2b1d40"/>
+      <text x="698" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#817596">Monthly revenue</text>
+      <text x="698" y="441" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#f8f5fe">$128.4k</text>
+      <text x="698" y="460" font-family="Segoe UI, Arial, sans-serif" font-size="8.5" fill="#4ade80">↑ 24.8% this quarter</text>
+      <g>
+        <rect x="698" y="474" width="10" height="16" rx="2" fill="#3c2960"/>
+        <rect x="714" y="468" width="10" height="22" rx="2" fill="#4c2a70"/>
+        <rect x="730" y="460" width="10" height="30" rx="2" fill="#6d28d9"/>
+        <rect x="746" y="464" width="10" height="26" rx="2" fill="#8b5cf6"/>
+        <rect x="762" y="452" width="10" height="38" rx="2" fill="#a855f7"/>
+        <rect x="778" y="445" width="10" height="45" rx="2" fill="url(#accent)"/>
+        <rect x="794" y="456" width="10" height="34" rx="2" fill="#67e8f9"/>
+        <rect x="810" y="448" width="10" height="42" rx="2" fill="#22d3ee"/>
+      </g>
+
+      <rect x="872" y="390" width="172" height="112" rx="14" fill="#0c0716" stroke="#2b1d40"/>
+      <text x="888" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="9" fill="#817596">Conversion rate</text>
+      <text x="888" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#f8f5fe">32.6%</text>
+      <path d="M888 486l18-10 16 6 18-18 16 4 18-22 16 8 20-18" fill="none" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1010" cy="436" r="3.5" fill="#67e8f9"/>
+
+      <g>
+        <rect x="1030" y="175" width="112" height="42" rx="12" fill="#0c0716" stroke="#32224d"/>
+        <circle cx="1049" cy="196" r="9" fill="#12313a"/>
+        <path d="M1045 196l3 3 5-6" stroke="#67e8f9" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="1064" y="193" font-family="Segoe UI, Arial, sans-serif" font-size="8" fill="#817596">Projects</text>
+        <text x="1064" y="206" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#f0eaf9">148 live</text>
+      </g>
+    </g>
+  </g>
+</svg>
