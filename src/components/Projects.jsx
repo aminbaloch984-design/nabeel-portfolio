@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="projects__head">
           <SectionHeading
             align="left"
-            eyebrow="Portfolio · 05 Projects"
+            eyebrow="Portfolio · 07 Projects"
             title={
               <>
                 Selected work that{" "}
@@ -76,7 +76,7 @@ export default function Projects() {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn--primary btn--sm"
-                      aria-label={`View the ${project.title} live demo (placeholder link)`}
+                      aria-label={`View the ${project.title} live demo`}
                     >
                       Live Demo
                       <ArrowUpRight width="15" height="15" />

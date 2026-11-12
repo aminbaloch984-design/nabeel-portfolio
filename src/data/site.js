@@ -43,7 +43,7 @@ export const navLinks = [
 ];
 
 export const heroStats = [
-  { value: "5+", label: "Projects Built" },
+  { value: "7+", label: "Projects Built" },
   { value: "6", label: "Core Services" },
   { value: "100%", label: "Responsive" },
 ];
@@ -100,6 +100,29 @@ export const projects = [
     image: "/projects/new-ai.png",
     live: "https://maan-dev-rose.vercel.app",
     github: "https://github.com/aminbaloch984-design/maan-dev",
+  },
+  {
+    id: "autodrive-pk",
+    title: "AutoDrive PK — Car Marketplace",
+    category: "Marketplace",
+    description:
+      "A complete car marketplace for Pakistan: searchable inventory with filters, detailed vehicle dossiers with specifications and an inspection checklist, a sell-your-car flow and direct WhatsApp contact.",
+    tech: ["HTML5", "CSS3", "JavaScript"],
+    image: "/projects/autodrive.png",
+    live: "https://aminbaloch984-design.github.io/nabeel-ameen/autodrive/",
+    github:
+      "https://github.com/aminbaloch984-design/nabeel-ameen/tree/main/autodrive",
+  },
+  {
+    id: "laptop-hub",
+    title: "LaptopHub — Laptop Store",
+    category: "Online Store",
+    description:
+      "A premium laptop storefront with PKR pricing, brand and category filters, product detail pages, an accessories section and a persistent cart that survives a refresh.",
+    tech: ["Next.js", "React.js", "CSS3"],
+    image: "/projects/laptop-hub.png",
+    live: "https://aminbaloch984-design.github.io/nabeel-ameen/",
+    github: "https://github.com/aminbaloch984-design/laptop-hub",
   },
   {
     id: "school-management",
