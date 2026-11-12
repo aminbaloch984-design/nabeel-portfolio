@@ -43,7 +43,7 @@ export const navLinks = [
 ];
 
 export const heroStats = [
-  { value: "7+", label: "Projects Built" },
+  { value: "3+", label: "Projects Built" },
   { value: "6", label: "Core Services" },
   { value: "100%", label: "Responsive" },
 ];
@@ -123,50 +123,6 @@ export const projects = [
     image: "/projects/laptop-hub.png",
     live: "https://aminbaloch984-design.github.io/nabeel-ameen/",
     github: "https://github.com/aminbaloch984-design/laptop-hub",
-  },
-  {
-    id: "school-management",
-    title: "School Management Website",
-    category: "Web Application",
-    description:
-      "A complete school dashboard for managing students, teachers, classes and attendance — with a clean data-rich interface.",
-    tech: ["Next.js", "React.js", "CSS3"],
-    image: "/projects/school-management.svg",
-    live: "https://example.com/demo/school-management",
-    github: "https://github.com/aminbaloch984-design",
-  },
-  {
-    id: "business-website",
-    title: "Business Website",
-    category: "Corporate Website",
-    description:
-      "A conversion-focused company website with a confident hero, service highlights and a clear path to enquiry.",
-    tech: ["HTML5", "CSS3", "JavaScript"],
-    image: "/projects/business-website.svg",
-    live: "https://example.com/demo/business-website",
-    github: "https://github.com/aminbaloch984-design",
-  },
-  {
-    id: "restaurant-website",
-    title: "Restaurant Website",
-    category: "Hospitality",
-    description:
-      "An appetizing restaurant experience with a bold menu, story-driven sections and a simple reservation flow.",
-    tech: ["React.js", "CSS3", "JavaScript"],
-    image: "/projects/restaurant-website.svg",
-    live: "https://example.com/demo/restaurant-website",
-    github: "https://github.com/aminbaloch984-design",
-  },
-  {
-    id: "ecommerce-website",
-    title: "E-commerce Website",
-    category: "Online Store",
-    description:
-      "A polished storefront with product discovery, category filters and a friction-free cart experience.",
-    tech: ["Next.js", "React.js", "CSS3"],
-    image: "/projects/ecommerce-website.svg",
-    live: "https://example.com/demo/ecommerce-website",
-    github: "https://github.com/aminbaloch984-design",
   },
 ];
 

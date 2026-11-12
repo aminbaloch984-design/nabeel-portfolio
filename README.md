@@ -15,7 +15,7 @@ glassmorphism, and subtle motion.
   an animated mobile menu
 - Scroll-reveal animations powered by `IntersectionObserver`
 - Animated skill cards with proficiency meters
-- Seven portfolio project cards with preview artwork, tech tags, live demo and
+- Three portfolio project cards with preview artwork, tech tags, live demo and
   GitHub buttons
 - Six service cards and a call-to-action banner
 - Contact form with client-side validation that opens the visitor's email app
@@ -68,7 +68,7 @@ nabeel-portfolio/
 ├─ public/
 │  ├─ logo-mark.png          # Transparent brand mark
 │  ├─ og.png                 # Social share image (1200×630)
-│  └─ projects/              # Project preview artwork (PNG / SVG)
+│  └─ projects/              # Project preview artwork (PNG)
 ├─ src/
 │  ├─ app/
 │  │  ├─ layout.js           # Metadata, fonts, global layout, JSON-LD

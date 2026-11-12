@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="projects__head">
           <SectionHeading
             align="left"
-            eyebrow="Portfolio · 07 Projects"
+            eyebrow="Portfolio · 03 Projects"
             title={
               <>
                 Selected work that{" "}
@@ -38,9 +38,7 @@ export default function Projects() {
             <Reveal
               key={project.id}
               delay={(index % 3) * 80}
-              className={`project-reveal${
-                index < 2 ? " project-reveal--featured" : ""
-              }`}
+              className="project-reveal"
             >
               <article className="project-card">
                 <div className="project-card__media">
